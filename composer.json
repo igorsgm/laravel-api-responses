@@ -1,9 +1,13 @@
 {
     "name": "igorsgm/laravel-api-responses",
-    "description": "A Laravel package for building API responses in a normalized and easy to consume way.",
+    "description": "📮• A Laravel package for building API responses in a normalized and easy to consume way.",
     "keywords": [
-        "igorsgm",
-        "laravel-api-responses"
+        "laravel",
+        "lumen",
+        "api",
+        "response",
+        "responder",
+        "builder"
     ],
     "homepage": "https://github.com/igorsgm/laravel-api-responses",
     "license": "MIT",
