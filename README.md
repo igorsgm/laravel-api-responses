@@ -19,7 +19,7 @@
 
 <hr/>
 
-![Image of Yaktocat](./image.png)
+![API Response example](./image.png)
 
 ## ✨ Features
 
