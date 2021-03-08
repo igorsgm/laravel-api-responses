@@ -19,7 +19,9 @@
 
 <hr/>
 
-![API Response example](./image.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/14129843/110302972-b43f0c80-7fae-11eb-95b3-f042c8d29071.png" alt="API usage sample">
+</p>
 
 ## ✨ Features
 
