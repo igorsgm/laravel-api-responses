@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/packagist/v/igorsgm/laravel-api-responses.svg?style=flat-square" alt="Latest Version on Packagist">
     </a>
     <a href="https://travis-ci.org/igorsgm/laravel-api-responses">
-        <img src="https://img.shields.io/travis/igorsgm/laravel-api-responses/master.svg?style=flat-square" alt="Build Status">
+        <img src="https://img.shields.io/scrutinizer/build/g/igorsgm/laravel-api-responses/master?style=flat-square" alt="Build Status">
     </a>
     <a href="https://scrutinizer-ci.com/g/igorsgm/laravel-api-responses">
         <img src="https://img.shields.io/scrutinizer/g/igorsgm/laravel-api-responses.svg?style=flat-square" alt="Quality Score">
@@ -20,7 +20,7 @@
 <hr/>
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/14129843/110302972-b43f0c80-7fae-11eb-95b3-f042c8d29071.png" alt="API usage sample">
+    <img src="https://user-images.githubusercontent.com/14129843/110307112-6973c380-7fb3-11eb-82fa-4e4b150363b4.png" alt="API usage sample">
 </p>
 
 ## ✨ Features
