@@ -1,0 +1,50 @@
+{
+    "name": "igorsgm/laravel-api-responses",
+    "description": "A Laravel package for building API responses in a normalized and easy to consume way.",
+    "keywords": [
+        "igorsgm",
+        "laravel-api-responses"
+    ],
+    "homepage": "https://github.com/igorsgm/laravel-api-responses",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Igor Moraes",
+            "email": "igor.sgm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": ">=6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Igorsgm\\LaravelApiResponses\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Igorsgm\\LaravelApiResponses\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Igorsgm\\LaravelApiResponses\\LaravelApiResponsesServiceProvider"
+            ]
+        }
+    }
+}

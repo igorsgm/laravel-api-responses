@@ -1,0 +1,98 @@
+<?php
+
+/**
+ * A helper file for Laravel, to provide autocomplete information to your IDE
+ * This file should not be included in your code, only analyzed by your IDE!
+ *
+ * @author Igor Moraes <igor.sgm@gmail.com>
+ * @see https://github.com/igorsgm/laravel-api-responses
+ */
+
+namespace Illuminate\Contracts\Routing;
+
+class ResponseFactory
+{
+    /**
+     * Return a new success JSON response from the application.
+     *
+     * Called like: response()->success(...)
+     *
+     * @param  array  $data
+     * @param  string  $message
+     * @param  int  $status
+     * @param  array  $headers
+     * @return \Illuminate\Http\JsonResponse
+     * @see \Igorsgm\LaravelApiResponses\Macros\Success::run()
+     */
+    public function success($data = [], $message = '', $status = 200, $headers = [])
+    {
+        return \Illuminate\Routing\ResponseFactory::success($data, $message, $status, $headers);
+    }
+
+    /**
+     * Return a success JSON message response from the application.
+     *
+     * Called like: response()->successMessage(...)
+     *
+     * @param  string  $message
+     * @param  int  $status
+     * @param  array  $headers
+     * @return \Illuminate\Http\JsonResponse
+     * @see \Igorsgm\LaravelApiResponses\Macros\SuccessMessage::run()
+     */
+    public function successMessage($message = '', $status = 200, $headers = [])
+    {
+        return \Illuminate\Routing\ResponseFactory::successMessage($message, $status, $headers);
+    }
+
+    /**
+     * Return a new error JSON response from the application.
+     *
+     * Called like: response()->error(...)
+     *
+     * @param  array  $errors
+     * @param  string  $message
+     * @param  int  $status
+     * @param  array  $headers
+     * @param  array  $debugData
+     * @return \Illuminate\Http\JsonResponse
+     * @see \Igorsgm\LaravelApiResponses\Macros\Error::run()
+     */
+    public function error($errors = [], $message = '', $status = 500, $headers = [], $debugData = [])
+    {
+        return \Illuminate\Routing\ResponseFactory::error($errors, $message, $status, $headers, $debugData);
+    }
+
+    /**
+     * Return an error JSON message from the application.
+     *
+     * Called like: response()->successMessage(...)
+     *
+     * @param  string  $message
+     * @param  int  $status
+     * @param  array  $headers
+     * @return \Illuminate\Http\JsonResponse
+     * @see \Igorsgm\LaravelApiResponses\Macros\ErrorMessage::run()
+     */
+    public function errorMessage($message = '', $status = 500, $headers = [])
+    {
+        return \Illuminate\Routing\ResponseFactory::errorMessage($message, $status, $headers);
+    }
+
+    /**
+     * Return a new error JSON response from the application coming from an exception.
+     *
+     * Called like: response()->exceptionError(...)
+     *
+     * @param  \Throwable  $exception
+     * @param  string  $message
+     * @param  int  $status
+     * @param  array  $headers
+     * @return \Illuminate\Http\JsonResponse
+     * @see \Igorsgm\LaravelApiResponses\Macros\ExceptionError::run()
+     */
+    public function exceptionError($exception, $message = '', $status = 0, $headers = [])
+    {
+        return \Illuminate\Routing\ResponseFactory::exceptionError($exception, $message, $status, $headers);
+    }
+}
