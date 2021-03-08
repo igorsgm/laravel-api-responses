@@ -20,7 +20,7 @@
 <hr/>
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/14129843/110307112-6973c380-7fb3-11eb-82fa-4e4b150363b4.png" alt="API usage sample">
+    <img src="https://user-images.githubusercontent.com/14129843/110307757-2108d580-7fb4-11eb-9443-79ef14a12dd7.png" alt="API usage sample">
 </p>
 
 ## ✨ Features
